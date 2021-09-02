@@ -36,7 +36,7 @@ namespace Senai.Rental.WebApi.Repositories
         {
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
-                string querySelectById = "SELECT idCliente, nomeCliente, sobrenomeCliente, FROM CLIENTE WHERE idCliente = @idCliente";
+                string querySelectById = "SELECT idCliente, nomeCliente, sobrenomeCliente FROM CLIENTE WHERE idCliente = @idCliente";
 
                 con.Open();
 

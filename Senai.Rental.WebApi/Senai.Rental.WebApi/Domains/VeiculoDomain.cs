@@ -9,9 +9,9 @@ namespace Senai.Rental.WebApi.Domains
     {
         public int idVeiculo { get; set; }
 
-        public EmpresaDomain idEmpresa { get; set; }
+        public EmpresaDomain Empresa { get; set; }
 
-        public ModeloDomain idModelo { get; set; }
+        public ModeloDomain Modelo { get; set; }
 
         public string placaVeiculo { get; set; }
     }

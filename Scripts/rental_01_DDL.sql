@@ -50,3 +50,4 @@ CREATE TABLE ALUGUEL(
 ALTER TABLE CLIENTE 
 DROP DATABASE T_Rental;
 
+SELECT idAluguel,  idEmpresa, idCliente, idVeiculo, dataInicio, dataFim FROM ALUGUEL WHERE idAluguel = @idAluguel;
